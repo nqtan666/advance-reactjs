@@ -1,0 +1,15 @@
+.content-homework26{
+    padding: 20px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    .card{
+        border: 1px solid yellow;
+        width: 18rem;
+        .card-img-top{
+            width: 100%;
+            height: 200px;
+        }
+    }
+}

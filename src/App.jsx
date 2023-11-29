@@ -11,6 +11,7 @@ import Lesson7 from '../src/lessons/Lesson7/Lesson7'
 import Lesson8 from '../src/lessons/Lesson8/Lesson8'
 import Lesson9 from '../src/lessons/Lesson9/Lesson9'
 import Lesson10 from '../src/lessons/Lesson10/Lesson10'
+import HomeWork26 from './lessons/自分/HomeWork26'
 const App = () => {
   const [count, setCount] = useState(0);
 
@@ -27,7 +28,8 @@ const App = () => {
       {/* <Lesson7 /> */}
       {/* <Lesson8 /> */}
       {/* <Lesson9 /> */}
-      <Lesson10 />
+      {/* <Lesson10 /> */}
+      <HomeWork26 />
       <Footer />
     </div>
   )
